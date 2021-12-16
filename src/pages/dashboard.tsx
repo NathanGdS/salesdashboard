@@ -162,17 +162,17 @@ const options = {
 
 const series = [
     { name: 'series1', data: [
-        3100, 1220, 7500, 4900, 2090,
-        3400, 9200, 8950, 3890, 3920
+        3100, 1220, 7500, 4900, 2090, 9023,
+        3400, 9200, 8950, 3890, 3920, 12902
     ] }
 ]; 
 
 export default function Dashboard(){
     return (
-        <Flex flexDirection="column" h="100vh"> 
-            <Header />
-            <Flex h="100%" maxWidth={1480}>
-                <Sidebar /> 
+        <Flex display="flex" h="100vh"> 
+            <Sidebar />
+            <Flex display="flex" flexDirection="column" h="100%" maxWidth={1480}>
+             <Header />
                 <Box display="flex">
                     <SimpleGrid 
                         display="flex"

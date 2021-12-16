@@ -9,8 +9,6 @@ export function Header()
             w="100%"
             maxW={1480}
             h="20"
-            mx="auto"
-            align="center" 
             ml="6"
         >
 
