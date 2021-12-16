@@ -3,7 +3,7 @@ import { RiBarChart2Fill, RiHome2Fill, RiGroupFill, RiDashboardFill, RiMailFill,
 
 export function Sidebar() {
     return (
-       <Box bg="white" w="20" as="aside">
+       <Box bg="white" w="20" as="aside" h="100%">
            <Stack spacing="8" align="flex-start">
                 <Box>
                     <Stack ml="6" mt="20vh" align="center" spacing="8">
